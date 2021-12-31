@@ -1,0 +1,100 @@
+body {
+    margin: 0px;
+    background-image: url(./images/Kerfin7_NEA_2341.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.mainbody {
+    background: linear-gradient(to right, rgba(204, 108, 108, 0.726), rgba(119, 108, 219, 0.705));
+    margin: auto;
+    margin-top: 40px;
+    height: 500px;
+    width: 500px;
+    min-width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+}
+
+#item1 {
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 35px;
+    margin-bottom: 30px;
+    border-bottom: 5px solid rgb(55, 180, 50);
+}
+
+#item5,
+#item2,
+#item3,
+#item4 {
+    margin-top: 20px;
+    width: 400PX;
+    text-align: center;
+}
+
+input:hover {
+    border-bottom: 2px solid blue;
+    background-color: bisque;
+}
+
+input {
+    width: 300PX;
+    color: black;
+    height: 30px;
+    background-color: rgba(255, 255, 255, 0.452);
+    outline: none;
+    border: 2px solid rgba(173, 113, 121, 0.651);
+    font-size: 18px;
+}
+
+button {
+    margin-top: 20px;
+    background-color: rgba(167, 94, 94, 0.452);
+    color: black;
+    width: 150PX;
+    height: 40px;
+    font-size: 15px;
+}
+
+button:hover {
+    /* border: solid 2px red; */
+    cursor: pointer;
+    background-color: bisque;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.extra-btn {
+    display: flex;
+    width: 300px;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+#item8,
+#item7 {
+    cursor: pointer;
+    color: black;
+    border-bottom: 1px solid black;
+    transition: all;
+}
+
+#item8:hover,
+#item7:hover {
+    color: black;
+    border-bottom: 1px solid red;
+    transform: scale(110%)
+}
